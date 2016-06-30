@@ -1,0 +1,540 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		328C8E240F992CEFA0B18FD2 /* libPods-StitchFix.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 24C76F534B6633CED755CB78 /* libPods-StitchFix.a */; };
+		49358ADB1D248CFB001A2973 /* StitchFixWebCalls.m in Sources */ = {isa = PBXBuildFile; fileRef = 49358ADA1D248CFB001A2973 /* StitchFixWebCalls.m */; };
+		49358ADE1D248EB7001A2973 /* FixItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 49358ADD1D248EB7001A2973 /* FixItem.m */; };
+		49358AE11D249251001A2973 /* ItemFeedbackVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 49358AE01D249251001A2973 /* ItemFeedbackVC.m */; };
+		49358AE51D2494D7001A2973 /* ItemFeedbackCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 49358AE31D2494D7001A2973 /* ItemFeedbackCell.m */; };
+		49358AE61D2494D7001A2973 /* ItemFeedbackCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49358AE41D2494D7001A2973 /* ItemFeedbackCell.xib */; };
+		49601E291D248B93009E1D98 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 49601E281D248B93009E1D98 /* main.m */; };
+		49601E2C1D248B93009E1D98 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 49601E2B1D248B93009E1D98 /* AppDelegate.m */; };
+		49601E2F1D248B93009E1D98 /* StartCheckoutVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 49601E2E1D248B93009E1D98 /* StartCheckoutVC.m */; };
+		49601E321D248B93009E1D98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49601E301D248B93009E1D98 /* Main.storyboard */; };
+		49601E341D248B93009E1D98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49601E331D248B93009E1D98 /* Assets.xcassets */; };
+		49601E371D248B93009E1D98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49601E351D248B93009E1D98 /* LaunchScreen.storyboard */; };
+		49601E421D248B93009E1D98 /* StitchFixUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49601E411D248B93009E1D98 /* StitchFixUITests.m */; };
+		496164361D24A27E00DE505B /* placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 496164351D24A27E00DE505B /* placeholder.png */; };
+		496164391D24B06100DE505B /* CheckoutVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 496164381D24B06100DE505B /* CheckoutVC.m */; };
+		4961643C1D24B94500DE505B /* CheckoutCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4961643B1D24B94500DE505B /* CheckoutCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		49601E3E1D248B93009E1D98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49601E1C1D248B93009E1D98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49601E231D248B93009E1D98;
+			remoteInfo = StitchFix;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		10A7F820D22C391BA98C8C6D /* Pods-StitchFix.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StitchFix.release.xcconfig"; path = "Pods/Target Support Files/Pods-StitchFix/Pods-StitchFix.release.xcconfig"; sourceTree = "<group>"; };
+		140C47FF26962EA7228492BD /* Pods-StitchFix.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StitchFix.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StitchFix/Pods-StitchFix.debug.xcconfig"; sourceTree = "<group>"; };
+		24C76F534B6633CED755CB78 /* libPods-StitchFix.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-StitchFix.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49358AD91D248CFB001A2973 /* StitchFixWebCalls.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StitchFixWebCalls.h; sourceTree = "<group>"; };
+		49358ADA1D248CFB001A2973 /* StitchFixWebCalls.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StitchFixWebCalls.m; sourceTree = "<group>"; };
+		49358ADC1D248EB7001A2973 /* FixItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FixItem.h; sourceTree = "<group>"; };
+		49358ADD1D248EB7001A2973 /* FixItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FixItem.m; sourceTree = "<group>"; };
+		49358ADF1D249251001A2973 /* ItemFeedbackVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemFeedbackVC.h; sourceTree = "<group>"; };
+		49358AE01D249251001A2973 /* ItemFeedbackVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemFeedbackVC.m; sourceTree = "<group>"; };
+		49358AE21D2494D7001A2973 /* ItemFeedbackCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemFeedbackCell.h; sourceTree = "<group>"; };
+		49358AE31D2494D7001A2973 /* ItemFeedbackCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemFeedbackCell.m; sourceTree = "<group>"; };
+		49358AE41D2494D7001A2973 /* ItemFeedbackCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ItemFeedbackCell.xib; sourceTree = "<group>"; };
+		49601E241D248B93009E1D98 /* StitchFix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StitchFix.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		49601E281D248B93009E1D98 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		49601E2A1D248B93009E1D98 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		49601E2B1D248B93009E1D98 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		49601E2D1D248B93009E1D98 /* StartCheckoutVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StartCheckoutVC.h; sourceTree = "<group>"; };
+		49601E2E1D248B93009E1D98 /* StartCheckoutVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StartCheckoutVC.m; sourceTree = "<group>"; };
+		49601E311D248B93009E1D98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		49601E331D248B93009E1D98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		49601E361D248B93009E1D98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		49601E381D248B93009E1D98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49601E3D1D248B93009E1D98 /* StitchFixUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StitchFixUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		49601E411D248B93009E1D98 /* StitchFixUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StitchFixUITests.m; sourceTree = "<group>"; };
+		49601E431D248B93009E1D98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		496164351D24A27E00DE505B /* placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placeholder.png; sourceTree = "<group>"; };
+		496164371D24B06100DE505B /* CheckoutVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckoutVC.h; sourceTree = "<group>"; };
+		496164381D24B06100DE505B /* CheckoutVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckoutVC.m; sourceTree = "<group>"; };
+		4961643A1D24B94500DE505B /* CheckoutCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckoutCell.h; sourceTree = "<group>"; };
+		4961643B1D24B94500DE505B /* CheckoutCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckoutCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49601E211D248B93009E1D98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				328C8E240F992CEFA0B18FD2 /* libPods-StitchFix.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49601E3A1D248B93009E1D98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		022EC6F28FFF533FB8C78155 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				24C76F534B6633CED755CB78 /* libPods-StitchFix.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3F5F8A0D3DFE8310AE0C69EA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				140C47FF26962EA7228492BD /* Pods-StitchFix.debug.xcconfig */,
+				10A7F820D22C391BA98C8C6D /* Pods-StitchFix.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		49601E1B1D248B93009E1D98 = {
+			isa = PBXGroup;
+			children = (
+				49601E261D248B93009E1D98 /* StitchFix */,
+				49601E401D248B93009E1D98 /* StitchFixUITests */,
+				49601E251D248B93009E1D98 /* Products */,
+				3F5F8A0D3DFE8310AE0C69EA /* Pods */,
+				022EC6F28FFF533FB8C78155 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		49601E251D248B93009E1D98 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49601E241D248B93009E1D98 /* StitchFix.app */,
+				49601E3D1D248B93009E1D98 /* StitchFixUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49601E261D248B93009E1D98 /* StitchFix */ = {
+			isa = PBXGroup;
+			children = (
+				496164351D24A27E00DE505B /* placeholder.png */,
+				49601E2A1D248B93009E1D98 /* AppDelegate.h */,
+				49601E2B1D248B93009E1D98 /* AppDelegate.m */,
+				49601E2D1D248B93009E1D98 /* StartCheckoutVC.h */,
+				49601E2E1D248B93009E1D98 /* StartCheckoutVC.m */,
+				49358ADF1D249251001A2973 /* ItemFeedbackVC.h */,
+				49358AE01D249251001A2973 /* ItemFeedbackVC.m */,
+				49358AE21D2494D7001A2973 /* ItemFeedbackCell.h */,
+				49358AE31D2494D7001A2973 /* ItemFeedbackCell.m */,
+				49358AE41D2494D7001A2973 /* ItemFeedbackCell.xib */,
+				496164371D24B06100DE505B /* CheckoutVC.h */,
+				496164381D24B06100DE505B /* CheckoutVC.m */,
+				4961643A1D24B94500DE505B /* CheckoutCell.h */,
+				4961643B1D24B94500DE505B /* CheckoutCell.m */,
+				49601E301D248B93009E1D98 /* Main.storyboard */,
+				49601E331D248B93009E1D98 /* Assets.xcassets */,
+				49601E351D248B93009E1D98 /* LaunchScreen.storyboard */,
+				49601E381D248B93009E1D98 /* Info.plist */,
+				49601E271D248B93009E1D98 /* Supporting Files */,
+				49358AD91D248CFB001A2973 /* StitchFixWebCalls.h */,
+				49358ADA1D248CFB001A2973 /* StitchFixWebCalls.m */,
+				49358ADC1D248EB7001A2973 /* FixItem.h */,
+				49358ADD1D248EB7001A2973 /* FixItem.m */,
+			);
+			path = StitchFix;
+			sourceTree = "<group>";
+		};
+		49601E271D248B93009E1D98 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				49601E281D248B93009E1D98 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		49601E401D248B93009E1D98 /* StitchFixUITests */ = {
+			isa = PBXGroup;
+			children = (
+				49601E411D248B93009E1D98 /* StitchFixUITests.m */,
+				49601E431D248B93009E1D98 /* Info.plist */,
+			);
+			path = StitchFixUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49601E231D248B93009E1D98 /* StitchFix */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49601E461D248B93009E1D98 /* Build configuration list for PBXNativeTarget "StitchFix" */;
+			buildPhases = (
+				443723AB91986842FBCD4830 /* Check Pods Manifest.lock */,
+				49601E201D248B93009E1D98 /* Sources */,
+				49601E211D248B93009E1D98 /* Frameworks */,
+				49601E221D248B93009E1D98 /* Resources */,
+				2D6A677E742A41F7D8C0F6F3 /* Embed Pods Frameworks */,
+				C3B46DE56667513DAD9190FB /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StitchFix;
+			productName = StitchFix;
+			productReference = 49601E241D248B93009E1D98 /* StitchFix.app */;
+			productType = "com.apple.product-type.application";
+		};
+		49601E3C1D248B93009E1D98 /* StitchFixUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49601E491D248B93009E1D98 /* Build configuration list for PBXNativeTarget "StitchFixUITests" */;
+			buildPhases = (
+				49601E391D248B93009E1D98 /* Sources */,
+				49601E3A1D248B93009E1D98 /* Frameworks */,
+				49601E3B1D248B93009E1D98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49601E3F1D248B93009E1D98 /* PBXTargetDependency */,
+			);
+			name = StitchFixUITests;
+			productName = StitchFixUITests;
+			productReference = 49601E3D1D248B93009E1D98 /* StitchFixUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49601E1C1D248B93009E1D98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Rogers, April";
+				TargetAttributes = {
+					49601E231D248B93009E1D98 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					49601E3C1D248B93009E1D98 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 49601E231D248B93009E1D98;
+					};
+				};
+			};
+			buildConfigurationList = 49601E1F1D248B93009E1D98 /* Build configuration list for PBXProject "StitchFix" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 49601E1B1D248B93009E1D98;
+			productRefGroup = 49601E251D248B93009E1D98 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49601E231D248B93009E1D98 /* StitchFix */,
+				49601E3C1D248B93009E1D98 /* StitchFixUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49601E221D248B93009E1D98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49601E371D248B93009E1D98 /* LaunchScreen.storyboard in Resources */,
+				49601E341D248B93009E1D98 /* Assets.xcassets in Resources */,
+				496164361D24A27E00DE505B /* placeholder.png in Resources */,
+				49358AE61D2494D7001A2973 /* ItemFeedbackCell.xib in Resources */,
+				49601E321D248B93009E1D98 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49601E3B1D248B93009E1D98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2D6A677E742A41F7D8C0F6F3 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StitchFix/Pods-StitchFix-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		443723AB91986842FBCD4830 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C3B46DE56667513DAD9190FB /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StitchFix/Pods-StitchFix-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49601E201D248B93009E1D98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49358AE11D249251001A2973 /* ItemFeedbackVC.m in Sources */,
+				49601E2F1D248B93009E1D98 /* StartCheckoutVC.m in Sources */,
+				49358ADB1D248CFB001A2973 /* StitchFixWebCalls.m in Sources */,
+				49601E2C1D248B93009E1D98 /* AppDelegate.m in Sources */,
+				49358AE51D2494D7001A2973 /* ItemFeedbackCell.m in Sources */,
+				49601E291D248B93009E1D98 /* main.m in Sources */,
+				496164391D24B06100DE505B /* CheckoutVC.m in Sources */,
+				49358ADE1D248EB7001A2973 /* FixItem.m in Sources */,
+				4961643C1D24B94500DE505B /* CheckoutCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49601E391D248B93009E1D98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49601E421D248B93009E1D98 /* StitchFixUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		49601E3F1D248B93009E1D98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49601E231D248B93009E1D98 /* StitchFix */;
+			targetProxy = 49601E3E1D248B93009E1D98 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		49601E301D248B93009E1D98 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49601E311D248B93009E1D98 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		49601E351D248B93009E1D98 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49601E361D248B93009E1D98 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		49601E441D248B93009E1D98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		49601E451D248B93009E1D98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49601E471D248B93009E1D98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 140C47FF26962EA7228492BD /* Pods-StitchFix.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StitchFix/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aprilrogers.StitchFix;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		49601E481D248B93009E1D98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10A7F820D22C391BA98C8C6D /* Pods-StitchFix.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StitchFix/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aprilrogers.StitchFix;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		49601E4A1D248B93009E1D98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = StitchFixUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aprilrogers.StitchFixUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = StitchFix;
+			};
+			name = Debug;
+		};
+		49601E4B1D248B93009E1D98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = StitchFixUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aprilrogers.StitchFixUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = StitchFix;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49601E1F1D248B93009E1D98 /* Build configuration list for PBXProject "StitchFix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49601E441D248B93009E1D98 /* Debug */,
+				49601E451D248B93009E1D98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49601E461D248B93009E1D98 /* Build configuration list for PBXNativeTarget "StitchFix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49601E471D248B93009E1D98 /* Debug */,
+				49601E481D248B93009E1D98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49601E491D248B93009E1D98 /* Build configuration list for PBXNativeTarget "StitchFixUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49601E4A1D248B93009E1D98 /* Debug */,
+				49601E4B1D248B93009E1D98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49601E1C1D248B93009E1D98 /* Project object */;
+}
